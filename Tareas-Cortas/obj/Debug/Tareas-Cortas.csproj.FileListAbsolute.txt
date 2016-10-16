@@ -1,0 +1,6 @@
+D:\Dropbox\Universidad\Cuarto cuatrimestre\programacion\Tareas-Cortas\Tareas-Cortas\bin\Debug\Tareas-Cortas.exe.config
+D:\Dropbox\Universidad\Cuarto cuatrimestre\programacion\Tareas-Cortas\Tareas-Cortas\bin\Debug\Tareas-Cortas.exe
+D:\Dropbox\Universidad\Cuarto cuatrimestre\programacion\Tareas-Cortas\Tareas-Cortas\bin\Debug\Tareas-Cortas.pdb
+D:\Dropbox\Universidad\Cuarto cuatrimestre\programacion\Tareas-Cortas\Tareas-Cortas\obj\Debug\Tareas-Cortas.csprojResolveAssemblyReference.cache
+D:\Dropbox\Universidad\Cuarto cuatrimestre\programacion\Tareas-Cortas\Tareas-Cortas\obj\Debug\Tareas-Cortas.exe
+D:\Dropbox\Universidad\Cuarto cuatrimestre\programacion\Tareas-Cortas\Tareas-Cortas\obj\Debug\Tareas-Cortas.pdb
