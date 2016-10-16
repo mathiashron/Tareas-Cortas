@@ -43,6 +43,7 @@ namespace Tareas_Cortas
 
             //Tarea#5
             Console.WriteLine("Tarea #5");
+            Console.WriteLine("Falta");
             Tc05 tarea5 = new Tc05();
 
             //Tarea#6

@@ -51,6 +51,20 @@
     <Compile Include="Tc04.cs" />
     <Compile Include="Tc05.cs" />
     <Compile Include="Tc06.cs" />
+    <Compile Include="Tc07.cs" />
+    <Compile Include="Tc08.cs" />
+    <Compile Include="Tc09.cs" />
+    <Compile Include="Tc10.cs" />
+    <Compile Include="Tc11.cs" />
+    <Compile Include="Tc12.cs" />
+    <Compile Include="Tc13.cs" />
+    <Compile Include="Tc14.cs" />
+    <Compile Include="Tc15.cs" />
+    <Compile Include="Tc16.cs" />
+    <Compile Include="Tc17.cs" />
+    <Compile Include="Tc18.cs" />
+    <Compile Include="Tc19.cs" />
+    <Compile Include="Tc20.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

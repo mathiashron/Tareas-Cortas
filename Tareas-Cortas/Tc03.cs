@@ -26,16 +26,16 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 	Cree una funcion que identifique si un elemento existe en una lista, debe retornar la cantidad de veces que el elemento aparece en la lista, retornara 0 si no aparece.
 */
 namespace Tareas_Cortas
-{
+{///<summary>
+ ///Realice un foreach para recorrer la lista y la comparo
+ ///con el elemento, la lista es de un string 
+ ///en este caso el dato tiene que ser igual, compara exacto con 
+ ///las mayusculas y las minusculas
+ ///No se utilizo una funcion para practicar, en funcion podria
+ ///usar String.Compare
+ ///</summary>
     class Tc03
-    {///<summary>
-     ///Realice un foreach para recorrer la lista y la comparo
-     ///con el elemento, la lista es de un string 
-     ///en este caso el dato tiene que ser igual, compara exacto con 
-     ///las mayusculas y las minusculas
-     ///No se utilizo una funcion para practicar, en funcion podria
-     ///usar String.Compare
-     ///</summary>
+    {
         public string lista(List<string> dato, string dato2)
         {
             String res = "";
