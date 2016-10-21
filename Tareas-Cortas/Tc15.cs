@@ -29,8 +29,38 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 //Your code starts here
 namespace Tareas_Cortas
-{
+{///<summary>
+ /// Lo que realizo son dos for anidados
+ /// uno con las x para tomar el un elemento
+ /// luego con las y las voy comparando con el resto
+ /// se reliza este proceso hasta que encuentre uno duplicado o al terminar de recorrer la matriz
+ /// con los if el primero es para descartar comparar el mismo elemento 
+ /// el segundo para la verificar si son iguales
+ /// si son iguales envia el resultado y finaliza el proceso
+ ///</summary>
     class Tc15
     {
+        public int datos(int[] dato)
+        {
+            int res = 0;
+            for (int x = 0; x <= dato.Length-1; x++)
+            {
+                for (int y = 0; y <= dato.Length-1; y++)
+                {
+                    if (x == y)
+                    {}
+                    else
+                    {
+                        if (dato[x] == dato[y])
+                        {
+                            res = dato[x];
+                            break;
+                        }
+                    }
+                }
+            }
+
+            return res;
+        }
     }
 }

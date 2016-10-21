@@ -20,7 +20,7 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 /*
 	Tarea Corta 1
-	Estudiante: [Your Name]
+	Estudiante: [Matias Horacio Hroncich]
 	
 	Enunciado:
 	Encontrar el K-esimo elemento las grande en un arreglo desordenado, notese que es el k-esimo elemento en el arreglo ordenado, no el k-esimo elemento distinto.
@@ -31,7 +31,23 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 //Your code starts here
 namespace Tareas_Cortas
 {
+    ///<summary>
+    /// Leo el arreglo y el dato 
+    /// con la funcion Array.Sort ordeno el arreglo
+    /// obtengo el tamaño le resto el vamos a consultar
+    /// y busco en el arreglo el campo con la resta
+    /// y retorno la solucion
+    ///</summary>
     class Tc12
     {
+        public int datos(int[] dato, int dato2)
+        {
+            int res = 0;
+            int tamano = dato.Length;
+            int num = tamano - dato2;
+            Array.Sort(dato);
+            res = dato[num];
+            return res;
+        }
     }
 }

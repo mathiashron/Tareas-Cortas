@@ -29,8 +29,32 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 //Your code starts here
 namespace Tareas_Cortas
-{
+{///<summary>
+ /// La secuencia de fibonacci es inicia con 0 y 1 y los suma 0 +1 =1
+ /// luego suma el anterior con el ultimo 1+1 =2 1+2=3 2+3=4 ....
+ /// Lo que realizo es eso crear dos long dato1 y dato2
+ /// los imprimo para tener el 0 1 inicial
+ /// luego los sumo y cambio dato1 por dato2 y dato2 por la suma hasta llegar a los 100
+ ///</summary>
     class Tc16
     {
+        public void datos()
+        {
+            long dato1 = 0;
+            long dato2 = 1;
+            Console.Write("({0} {1} )",dato1,dato2);
+            for (int x = 0; x <= 100; x++)
+            {
+                
+
+                long res= dato1 + dato2;
+
+                Console.Write("{0} ",res);
+                dato1 = dato2;
+                dato2 = res;
+            }
+            Console.WriteLine();
+
+        }
     }
 }

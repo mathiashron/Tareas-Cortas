@@ -37,5 +37,42 @@ namespace Tareas_Cortas
 {
     class Tc17
     {
+        public void datos(string dato)
+        {
+            //int cont = 0;
+            string letras = "";
+            for (int x = 0; x <= dato.Length - 1; x++)
+            {
+                int cont = 0;
+                string letra = "";
+                for (int y = 0; y <= dato.Length - 1; y++)
+                {
+                    if (x == y)
+                    { }
+                    else
+                    {
+                        if (dato[x] == dato[y])
+                        {
+                            cont++;
+                            letra = dato[x].ToString();
+                            letras = letras + dato[x].ToString();
+
+                        }
+                    }
+                }
+                //for (int a = 0; a <= letras.Length - 1; a++)
+                //{
+                    
+                //    if (letra != letras[a].ToString())
+                //    {
+                //        Console.WriteLine("{0} - {1}", letra, cont);
+                //    }
+
+                //    }
+                    Console.WriteLine("{0} - {1}", letra, cont);
+            }
+
+          
+        }
     }
 }

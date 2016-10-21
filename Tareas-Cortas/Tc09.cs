@@ -20,7 +20,7 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 /*
 	Tarea Corta 1
-	Estudiante: [Your Name]
+	Estudiante: [Matias Horacio Hroncich]
 	
 	Enunciado:
 	Rotacion de palabras en un string: Al recibir un string, se debe retornar un nuevo string en el que se roten sus palabras.
@@ -35,5 +35,25 @@ namespace Tareas_Cortas
 {
     class Tc09
     {
+        public string datos(string dato)
+        {
+            string res = "";
+            string respuesta = "";
+            for(int x = 0; x<=dato.Length-1; x++)
+            {
+                if (dato[x].ToString() == " " ||  dato.Length-1 == x)
+                {
+                    res = dato[x].ToString() + respuesta + res;
+                    respuesta = "";
+                }else
+                {
+                    respuesta = respuesta + dato[x].ToString();
+                }
+            }
+
+
+            return res;
+            
+        }
     }
 }

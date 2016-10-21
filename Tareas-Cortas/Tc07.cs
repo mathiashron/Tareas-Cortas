@@ -20,7 +20,7 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 /*
 	Tarea Corta 7
-	Estudiante: [Your Name]
+	Estudiante: [Matias Horacio Hroncich]
 	
 	Enunciado:
 	Dado un arreglo de longitud N, retornar un arreglo que contenga los K caracteres mas frecuentes.

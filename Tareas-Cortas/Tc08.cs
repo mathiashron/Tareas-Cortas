@@ -20,7 +20,7 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 /*
 	Tarea Corta 1
-	Estudiante: [Your Name]
+	Estudiante: [Matias Horacio Hroncich]
 	
 	Enunciado:
 	Validez de parentesis:
@@ -35,8 +35,39 @@ Cada tarea tendra un id, el metodo de entrega sera el siguiente:
 
 //Your code starts here
 namespace Tareas_Cortas
-{
+{///<summary>
+ ///recibo un String con los parentecis con un for voy leyendo cada campo
+ ///y con un if lo comparo con un ( si es correcto sumo un contador si no es correcto
+ ///sumo otro contador al final el for con otro if
+ ///comparo la cantidad si son iguales envio un True si no son un false
+ ///</summary>
     class Tc08
     {
+        public bool datos(string dato)
+        {
+            bool res = false;
+            int cant = dato.Length;
+            //string par1 = ")";
+            //string par2 = "(";
+            int cantp1 = 0;
+            int cantp2 = 0;
+            for (int x = 0; x <= dato.Length - 1; x++)
+            {
+                if (dato[x].ToString() == "(")
+                {
+                    cantp1++;
+                }
+                else
+                {
+                    cantp2++;
+                }
+            }
+
+            if (cantp1 == cantp2)
+            {
+                res = true;
+            }
+            return res;
+        }
     }
 }
