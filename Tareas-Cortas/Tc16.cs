@@ -40,14 +40,14 @@ namespace Tareas_Cortas
     {
         public void datos()
         {
-            long dato1 = 0;
-            long dato2 = 1;
+            double dato1 = 0;
+            double dato2 = 1;
             Console.Write("({0} {1} )",dato1,dato2);
             for (int x = 0; x <= 100; x++)
             {
-                
 
-                long res= dato1 + dato2;
+
+                double res = dato1 + dato2;
 
                 Console.Write("{0} ",res);
                 dato1 = dato2;
